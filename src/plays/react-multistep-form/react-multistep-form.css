@@ -1,0 +1,62 @@
+.btn {
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 0.2em 0.5em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+btn:hover {
+  border-color: #646cff;
+}
+btn:focus,
+btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.form-input-text {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  font-size: 0.75rem;
+}
+
+.container-flexbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  border: 1px solid black;
+  position: relative;
+  background: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: Arial;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.steps {
+  position: absolute;
+  top: 2px;
+  right: 0.5rem;
+}
+.form-steps {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+.form-wrapper-heading {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2 rem;
+}
